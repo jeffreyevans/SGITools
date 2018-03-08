@@ -1,27 +1,23 @@
-Package: GeNetIt
+Package: SGITools
 Type: Package
-Title: Spatial Graph-Theoretic Genetic Gravity Modelling
-Version: 0.1-1
-Date: 2017-07-31
+Title: Utilities for sage grouse management
+Version: 0.1-0
+Date: 2015-11-12
 Authors@R: c(person(family="Evans", given="Jeffrey S.", email = "jeffrey_evans@tnc.org", 
-             role = c("aut", "cre")), person(family="Murphy", given="Melanie", role = "aut") )
-Description: Implementation of spatial graph-theoretic genetic gravity models.
-    The model framework is applicable for other types of spatial flow questions.
-    Includes functions for constructing spatial graphs, sampling and summarizing
-    associated raster variables and building unconstrained and singly constrained
-    gravity models.
+             role = c("aut", "cre")))
+Description: Utilities for sage grouse management and decision making, including
+    the breeding density (core area) and fence collision models. This work was
+    developed for the USDA-NRCS Sage Grouse Initiative (SGI).
 Depends:
-    R (>= 3.1.0)
+    R (>= 3.2.1)
 Imports:
-    nlme,
-    sp,
-    spdep,
-    spatialEco,
-    raster,
-	rgeos
+    sp (>= 1.1-1),
+    raster (>= 2.4-15),
+    rgeos (>= 0.3-11),
+    methods
 Maintainer: Jeffrey S. Evans <jeffrey_evans@tnc.org>
 License: GPL-3
+URL: http://evansmurphy.wix.com/evansspatial#!sage-grouse-r-package/s00jp
 NeedsCompilation: no
-Repository: CRAN
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 5.0.1
