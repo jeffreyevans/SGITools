@@ -1,1 +1,0 @@
-A few minor changes to the gravity and associated summary and print functions.
