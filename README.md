@@ -1,5 +1,5 @@
 # SGITools
-Utilities for sage grouse management and decision making, including the breeding density (core area) and fence collision models. This work was developed for the USDA-NRCS Sage Grouse Initiative (SGI).Available functions in GeNetIt are:
+Utilities for sage grouse management and decision making, including the breeding density (core area) and fence collision models. This work was developed for the USDA-NRCS Sage Grouse Initiative (SGI).
 
 ​ Avalible functions
 
